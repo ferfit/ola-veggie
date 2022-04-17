@@ -1,0 +1,56 @@
+/*----------------------------------------------------------------*/
+/*                            Whatsapp                            */
+/*----------------------------------------------------------------*/
+
+.whatsapp{
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.90);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transform: scale(0);
+    transition: all 600ms ease-in-out;
+    z-index: 1000000;
+}
+
+
+.whatsapp__icono{
+    font-size: 50px;
+    color: var(--colorVerdeOscuro);
+}
+
+.mostrarWhatsapp{
+    transform: scale(1);
+}
+
+
+
+
+
+@media (min-width: 768px) { 
+    .whatsapp{
+        width: 90px;
+        height: 90px;
+    }
+
+    .whatsapp__icono{
+        font-size: 90px;
+    }
+    
+}
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {
+    
+    .whatsapp{
+        width: 70px;
+        height: 70px;
+    }
+    .whatsapp__icono{
+        font-size: 70px;
+    }
+ }
+
+@media (min-width: 1400px) {  }

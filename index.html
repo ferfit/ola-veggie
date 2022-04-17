@@ -1,420 +1,503 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Ola Veggie - Alimentos Naturales</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+<head>
+    <meta charset="utf-8">
+    <title>Ola Veggie - Alimentos Naturales</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
-        
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-    <body>
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
-            <div class="container-fluid">
-                <img src="imagenes/logo.jpg" alt="" style="width: 5%;">
-                
-            </div>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/whatsapp.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Demo styles -->
+    <style>
+        body {
+            background: #fff;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 80%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+
+        }
+    </style>
+    <!-- Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+</head>
+
+<body>
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <img src="imagenes/logo.jpg" alt="" class="logo">
+
         </div>
-        <!-- Nav Bar End -->
+    </div>
+    <!-- Nav Bar End -->
 
 
-        <!-- Carousel Start -->
-        <div class="carousel">
-            <div class="container-fluid">
-                <div class="owl-carousel">
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-1.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>Ingredientes <span>Naturales</span></h1>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat at lectus in malesuada
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">Sobre Nosotros</a>
-                                <a class="btn custom-btn" href="">Beneficios</a>
-                            </div>
+    <!-- Carousel Start -->
+    <div class="carousel">
+        <div class="container-fluid">
+            <div class="owl-carousel">
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="imagenes/img5.jpg" alt="Image">
+                    </div>
+                    <div class="carousel-text">
+                        <h1>Alta <span>Rentabilidad</span></h1>
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac
+                            consequat at lectus in malesuada
+                        </p>
+                        <div class="carousel-btn">
+                            <a class="btn custom-btn" href="#about">Sobre Nosotros</a>
+                            <a class="btn custom-btn" href="#feature">Beneficios</a>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-2.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>Productos de la  <span>Mejor</span> Calidad</h1>
-                            <p>
-                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varius fermentum, tortor
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">Sobre Nosotros</a>
-                                <a class="btn custom-btn" href="">Beneficios</a>
-                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="imagenes/img7.jpg" alt="Image">
+                    </div>
+                    <div class="carousel-text">
+                        <h1>Escasa <span>Competencia</span></h1>
+                        <p>
+                            Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci
+                            sodales varius fermentum, tortor
+                        </p>
+                        <div class="carousel-btn">
+                            <a class="btn custom-btn" href="#about">Sobre Nosotros</a>
+                            <a class="btn custom-btn" href="#feature">Beneficios</a>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-3.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>Entrega a puerta <span>Más Rápida</span></h1>
-                            <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">Sobre Nosotros</a>
-                                <a class="btn custom-btn" href="">Beneficios</a>
-                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="imagenes/img6.jpg" alt="Image">
+                    </div>
+                    <div class="carousel-text">
+                        <h1>Recupero de la inversión <span>Muy rápido</span></h1>
+                        <p>
+                            Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula
+                            euismod quam. Proin pellentesque odio
+                        </p>
+                        <div class="carousel-btn">
+                            <a class="btn custom-btn" href="#about">Sobre Nosotros</a>
+                            <a class="btn custom-btn" href="#feature">Beneficios</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Carousel End -->
+    </div>
+    <!-- Carousel End -->
 
-        <!-- About Start -->
-        <div class="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
-                            <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-content">
-                            <div class="section-header">
-                                <p>Sobre Nosotros</p>
-                                <h2>
-                                    Cocinando desde 1990</h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
-                                <!-- <a class="btn custom-btn" href="">Book A Table</a> -->
-                            </div>
-                        </div>
+    <!-- About Start -->
+    <div class="about overflow-hidden" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="img/about.jpg" alt="Image">
+                        <button type="button" class="btn-play" data-toggle="modal" data-src=""
+                            data-target="#videoModal">
+                            <span></span>
+                        </button>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- About End -->
-        
-        
-        <!-- Video Modal Start-->
-        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>        
-                        <!-- 16:9 aspect ratio -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <!-- Video Modal End -->
-        
-        
-        <!-- Feature Start -->
-        <div class="feature">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
+                <div class="col-lg-6">
+                    <div class="about-content">
                         <div class="section-header">
-                            <p>Por qué elegirnos</p>
-                            <h2>Nuestras características clave</h2>
+                            <p>Sobre Nosotros</p>
+                            <h2 class="">
+                                titulo o frase</h2>
                         </div>
-                        <div class="feature-text">
-                            <div class="feature-img">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <img src="img/feature-1.jpg" alt="Image">
-                                    </div>
-                                    <div class="col-6">
-                                        <img src="img/feature-2.jpg" alt="Image">
-                                    </div>
-                                    <div class="col-6">
-                                        <img src="img/feature-3.jpg" alt="Image">
-                                    </div>
-                                    <div class="col-6">
-                                        <img src="img/feature-4.jpg" alt="Image">
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="about-text">
                             <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec nisi sceleri maximus 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
+                                Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
+                                condimentum, viverra quis sem.
                             </p>
-                            <a class="btn custom-btn" href="">Contactanos</a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
+                                Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
+                                condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean
+                                consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <!-- <a class="btn custom-btn" href="">Book A Table</a> -->
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="feature-item">
-                                    <i class="flaticon-cooking"></i>
-                                    <h3>Mejor chef del mundo</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Video Modal Start-->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="./ola veggie mp4.mp4" title="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Feature Start -->
+    <div class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="section-header">
+                        <p>Por qué elegirnos</p>
+                        <h2>Nuestras características clave</h2>
+                    </div>
+                    <div class="feature-text">
+                        <div class="feature-img">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="imagenes/img1.jpg" alt="Image">
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="feature-item">
-                                    <i class="flaticon-vegetable"></i>
-                                    <h3>Ingredientes naturales</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
+                                <div class="col-6">
+                                    <img src="imagenes/img2.jpg" alt="Image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="imagenes/img3.jpg" alt="Image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="imagenes/img4.jpg" alt="Image">
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="feature-item">
-                                    <i class="flaticon-medal"></i>
-                                    <h3>Productos de la mejor calidad</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="feature-item">
-                                    <i class="flaticon-meat"></i>
-                                    <h3>Carnes y vegetales frescos</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
-                                </div>
+
+                        <a class="btn custom-btn" href="#contact">Contactanos</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <img src="imagenes/icono1.png" alt="" class="w-25 flaticon-vegetable mb-2">
+                                <h3>Escasa competencia</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor
+                                </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="feature-item">
-                                    <i class="flaticon-courier"></i>
-                                    <h3>Entrega de puerta más rápida</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
-                                </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <img src="imagenes/icono2.png" class="w-25 mb-2">
+                                <!-- <i class="flaticon-vegetable"></i> -->
+                                <h3>Alta rentabilidad</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor
+                                </p>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="feature-item">
-                                    <i class="flaticon-fruits-and-vegetables"></i>
-                                    <h3>Carne molida y baja en grasa</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <img src="imagenes/icono3.png" class="w-25 mb-2">
+                                <!-- <i class="flaticon-medal"></i> -->
+                                <h3>Gran participación de productos con baja pereceridad</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <img src="imagenes/icono4.png" class="w-25 mb-2">
+                                <!-- <i class="flaticon-meat"></i> -->
+                                <h3>Baja dotación de empleados</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <img src="imagenes/icono5.png" class="w-25 mb-2">
+                                <!-- <i class="flaticon-courier"></i> -->
+                                <h3>Reducidos costos por compras corporativas</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <img src="imagenes/icono6.png" class="w-25 mb-2">
+                                <!-- <i class="flaticon-fruits-and-vegetables"></i> -->
+                                <h3>Recupero de la inversión muy rápido</h3>
+                                <p>
+                                    En la inversión inicial, casi el 70% de la inversión se destina a mercaderías y
+                                    equipamientos de frío, reduciendo el riesgo. Activos muy recuperables.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Feature End -->
-        
-        
-        <!-- Testimonial Start -->
-        <div class="testimonial">
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="testimonial overflow-hidden">
+        <div class="container">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g1.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g2.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g3.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g4.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g5.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g6.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g7.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g8.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g9.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g10.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g11.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g12.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g13.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g14.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./imagenes/g15.jpg)"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Contactanos</p>
+                <h2>Contacto Para Cualquier Consulta</h2>
+            </div>
+            <div class="row align-items-center contact-information">
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Dirección</h3>
+                            <p>Av. Rivadavia N° 8869 - C.A.B.A</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Teléfono</h3>
+                            <p>011-2127-9545</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>info@olaveggie.com.ar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-share"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Siguenos...</h3>
+                            <div class="contact-social">
+                                <a href="https://www.facebook.com/olaveggiemarket" target="_blank"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/olaveggiemarket/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row contact-form">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105143.90987108323!2d-58.631896211049266!3d-34.55995600088665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9bc56aae6a5%3A0xd49cb9c0119f3109!2sAv.%20Rivadavia%208857-8899%2C%20C1407DYK%20CABA!5e0!3m2!1ses-419!2sar!4v1650203165365!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre"
+                                required="required" data-validation-required-message="Ingresa tu nombre" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="email" class="form-control" id="email" placeholder="Tu Email"
+                                required="required" data-validation-required-message="Ingresa tu email" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="subject" placeholder="telefono"
+                                required="required" data-validation-required-message="Ingresa un asunto" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control" id="message" placeholder="Mensaje" required="required"
+                                data-validation-required-message="Ingresa tu mensaje"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button class="btn custom-btn" type="submit" id="sendMessageButton">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Whatsapp -->
+    <a class="whatsapp position-fixed shadow" href="https://api.whatsapp.com/send?phone=5491141774133" target="_black"
+        id="whatsapp" aria-colspan="d-block">
+        <i class='bx bxl-whatsapp whatsapp__icono'></i>
+    </a>
+    <!-- Whatsapp End -->
+
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="copyright">
             <div class="container">
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" alt="Image">
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
-                        </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" alt="Image">
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
-                        </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" alt="Image">
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
-                        </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-4.jpg" alt="Image">
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
-                        </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
-                    </div>
-                </div>
+                <p>Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>. Todos los derechos reservados.
+                </p>
+                <p>Diseño<a href="https://tuproyectoweb.com.ar"> TuProyectoWeb</a></p>
             </div>
         </div>
-        <!-- Testimonial End -->
-        
-        
-        <!-- Contact Start -->
-        <div class="contact">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Contactanos</p>
-                    <h2>Contacto Para Cualquier Consulta</h2>
-                </div>
-                <div class="row align-items-center contact-information">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="contact-info">
-                            <div class="contact-icon">
-                                <i class="fa fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h3>Dirección</h3>
-                                <p>123 Street, NY, USA</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="contact-info">
-                            <div class="contact-icon">
-                                <i class="fa fa-phone-alt"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h3>Teléfono</h3>
-                                <p>+012 345 6789</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="contact-info">
-                            <div class="contact-icon">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h3>Email</h3>
-                                <p>info@example.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="contact-info">
-                            <div class="contact-icon">
-                                <i class="fa fa-share"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h3>Siguenos...</h3>
-                                <div class="contact-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row contact-form">
-                    <div class="col-md-6">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1600663868074!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required="required" data-validation-required-message="Ingresa tu nombre" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Tu Email" required="required" data-validation-required-message="Ingresa tu email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Asunto" required="required" data-validation-required-message="Ingresa un asunto" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Ingresa tu mensaje"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn custom-btn" type="submit" id="sendMessageButton">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
+    </div>
+    <!-- Footer End -->
 
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="js/whatsapp.js"></script>
 
-        <!-- Footer Start -->
-        <div class="footer">
-            <div class="copyright">
-                <div class="container">
-                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>. Todos los derechos reservados.</p>
-                    <p>Desiño<a href="https://tuproyectoweb.com.ar"> TuProyectoWeb</a></p>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/tempusdominus/js/moment.min.js"></script>
-        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-        
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+    <!-- Wow js -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
+
 </html>

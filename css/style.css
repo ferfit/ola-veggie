@@ -1,8 +1,3 @@
-/*Variables*/
-
-
-
-
 /*******************************/
 /********* General CSS *********/
 /*******************************/
@@ -14,11 +9,15 @@ body {
     --verdeOscuro: #00a85a;
 }
 
+:root {
+    scroll-behavior: smooth;
+}
+
 h1,
-h2, 
-h3, 
+h2,
+h3,
 h4,
-h5, 
+h5,
 h6 {
     color: #454545;
     font-family: 'Nunito', sans-serif;
@@ -27,7 +26,7 @@ h6 {
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #fbaf32;
+    color: var(--verdeOscuro);
     transition: .3s;
 }
 
@@ -52,7 +51,7 @@ a:focus {
 }
 
 .btn.custom-btn:hover {
-    color: #fbaf32;
+    color: var(--verdeOscuro);
     background: transparent;
 }
 
@@ -89,8 +88,10 @@ a:focus {
     background: var(--verdeClaro);
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
     font-size: inherit;
     margin-left: 0;
 }
@@ -99,6 +100,10 @@ a:focus {
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
+.logo {
+    width: 15%;
+}
+
 .navbar {
     position: relative;
     transition: .5s;
@@ -120,7 +125,7 @@ a:focus {
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
     transition: .5s;
-    
+
 }
 
 .navbar .navbar-brand span {
@@ -147,7 +152,17 @@ a:focus {
     background: #f8f9fa;
 }
 
+@media (min-width: 768px) {
+    .logo {
+        width:10%;
+    }
+}
+
 @media (min-width: 992px) {
+    .logo {
+        width: 5%;
+    }
+
     .navbar {
         position: absolute;
         width: 100%;
@@ -155,16 +170,16 @@ a:focus {
         background: transparent !important;
         z-index: 9;
     }
-    
+
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #ffffff !important;
     }
-    
+
     .navbar .navbar-brand {
         color: #fbaf32;
     }
-    
+
     .navbar.nav-sticky .navbar-brand {
         color: #fbaf32;
     }
@@ -177,7 +192,7 @@ a:focus {
         font-size: 18px;
         font-weight: 600;
     }
-    
+
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
         color: #666666;
@@ -187,31 +202,31 @@ a:focus {
     .navbar-light .navbar-nav .nav-link.active {
         color: #fbaf32;
     }
-    
+
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
         color: #fbaf32;
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
         background: #ffffff !important;
     }
-    
+
     .navbar .navbar-brand {
         color: #fbaf32;
     }
-    
+
     .navbar .navbar-nav {
         margin-top: 15px;
     }
-    
+
     .navbar a.nav-link {
         padding: 5px;
     }
-    
+
     .navbar .dropdown-menu {
         box-shadow: none;
     }
@@ -315,20 +330,21 @@ a:focus {
 }
 
 @media (max-width: 991.98px) {
+
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-text {
         height: calc(100vh - 105px);
     }
-    
+
     .carousel .carousel-text h1 {
         font-size: 35px;
     }
-    
+
     .carousel .carousel-text p {
         font-size: 16px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 12px 30px;
         font-size: 15px;
@@ -337,16 +353,17 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
+
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-text {
         height: calc(100vh - 70px);
     }
-    
+
     .carousel .carousel-text h1 {
         font-size: 30px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 10px 25px;
         font-size: 15px;
@@ -358,7 +375,7 @@ a:focus {
     .carousel .carousel-text h1 {
         font-size: 25px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 8px 20px;
         font-size: 14px;
@@ -419,7 +436,7 @@ a:focus {
     .page-header h2 {
         font-size: 35px;
     }
-    
+
     .page-header a {
         font-size: 18px;
     }
@@ -729,14 +746,15 @@ a:focus {
 }
 
 @keyframes pulse-border {
-  0% {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-    opacity: 0;
-  }
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
 }
 
 #videoModal {
@@ -969,6 +987,7 @@ a:focus {
 }
 
 @media(max-width: 575.98px) {
+
     .menu .menu-text p,
     .menu .menu-text h3,
     .menu .menu-text h3 span,
@@ -978,16 +997,16 @@ a:focus {
         padding: 0;
         margin: 0;
     }
-    
+
     .menu .menu-text h3 {
         font-size: 18px;
         margin-bottom: 0;
     }
-    
+
     .menu .menu-text h3 span {
         margin-bottom: 3px;
     }
-    
+
     .menu .menu-text h3::after {
         display: none;
     }
@@ -1291,7 +1310,7 @@ a:focus {
     color: #999999;
 }
 
-@media(max-width: 575.98px){
+@media(max-width: 575.98px) {
     .blog .blog-meta p {
         flex: 50%;
         font-size: 13px;
@@ -1668,11 +1687,11 @@ a:focus {
 }
 
 .sidebar .category-widget ul li {
-    margin: 0 0 12px 22px; 
+    margin: 0 0 12px 22px;
 }
 
 .sidebar .category-widget ul li:last-child {
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .sidebar .category-widget ul li a {
@@ -1837,7 +1856,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    
+
 }
 
 .footer .footer-contact,
@@ -1966,5 +1985,5 @@ a:focus {
 }
 
 .footer .copyright p a:hover {
-    color:var(--verdeClaro);
+    color: var(--verdeClaro);
 }
