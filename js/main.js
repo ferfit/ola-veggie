@@ -61,7 +61,7 @@
         $('.btn-play').click(function () {
             $videoSrc = $(this).data("src");
         });
-        console.log($videoSrc);
+        
 
         $('#videoModal').on('shown.bs.modal', function (e) {
             $("#video").attr('src', $videoSrc + "?modestbranding=1&amp;showinfo=0");
@@ -73,13 +73,7 @@
     });
     
     
-    // Date and time picker
-    $('#date').datetimepicker({
-        format: 'L'
-    });
-    $('#time').datetimepicker({
-        format: 'LT'
-    });
+   
 
 
     // Testimonials carousel
